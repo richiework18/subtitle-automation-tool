@@ -110,7 +110,7 @@ def extract_pairs(docx_path, verbose=True):
 
 
 # ---------------------------------------------------------------------------
-# .wfp raw-text editing (surgical splicing -- see conversation for why)
+# .wfp raw-text editing (surgical splicing )
 # ---------------------------------------------------------------------------
 def hex_utf16be_encode(text: str) -> str:
     return text.encode('utf-16-be').hex().upper()
